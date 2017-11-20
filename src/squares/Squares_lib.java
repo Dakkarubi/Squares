@@ -10,6 +10,7 @@ public class Squares_lib implements Squares_if {
 		this.x = x;
 		this.y = y;
 	}
+	
 	@Override
 	public double getObject() {
 		// TODO Auto-generated method stub
@@ -19,7 +20,7 @@ public class Squares_lib implements Squares_if {
 		}
 		return object / 2 ;
 	}
-
+	
 	@Override
 	public double[] getDx() {
 		// TODO Auto-generated method stub
